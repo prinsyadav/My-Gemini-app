@@ -121,8 +121,13 @@ function App() {
 
     setIsLoading(true);
 
+    // add render backend
+    const API_URL =
+      process.env.REACT_APP_API_URL ||
+      "https://python-backend-dj73.onrender.com";
+
     try {
-      const response = await fetch("http://127.0.0.1:5000/api/chat", {
+      const response = await fetch("${API_URL}/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
