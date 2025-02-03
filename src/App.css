@@ -165,7 +165,7 @@
 }
 
 .messages-container::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #63c3f0;
 }
 
 /* Make sure code blocks don't overflow */
