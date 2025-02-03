@@ -147,7 +147,7 @@
 
 .error-message .message-bubble {
   background-color: #ffebee;
-  color: #c62828;
+  color: #7af08c;
 }
 
 /* Scrollbar styling */
@@ -160,7 +160,7 @@
 }
 
 .messages-container::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #5ddb96;
   border-radius: 3px;
 }
 
