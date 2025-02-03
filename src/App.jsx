@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="chat-container">
       <div className="chat-header">
-        <h1>Chat with Gemini</h1>
+        <h1>Ask me anything</h1>
       </div>
 
       <div className="messages-container">
