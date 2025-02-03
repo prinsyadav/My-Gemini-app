@@ -27,9 +27,10 @@ function App() {
       });
 
       // Add these debug logs
-      console.log("Response status:", response.status);
-      const rawText = await response.text(); // Get raw response text
-      console.log("Raw response:", rawText);
+      // console.log("Response status:", response.status);
+      const rawText = await response.text();
+      // Get raw response text
+      // console.log("Raw response:", rawText);
 
       // Try parsing JSON
       let data;
