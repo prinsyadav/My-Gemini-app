@@ -10,7 +10,7 @@
 
 .chat-header {
   padding: 1rem;
-  background-color: #4caf50;
+  background-color: #000000;
   color: white;
   text-align: center;
 }
@@ -50,13 +50,13 @@
 }
 
 .user-message .message-bubble {
-  background-color: #4caf50;
+  background-color: #7375ed;
   color: white;
 }
 
 .ai-message .message-bubble {
-  background-color: white;
-  color: #333;
+  background-color: rgb(253, 111, 111);
+  color: #000000;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -96,7 +96,7 @@
 
 .input-form button {
   padding: 12px 24px;
-  background-color: #4caf50;
+  background-color: #0c0505;
   color: white;
   border: none;
   border-radius: 25px;
@@ -106,7 +106,7 @@
 }
 
 .input-form button:disabled {
-  background-color: #ccc;
+  background-color: #0c0505;
   cursor: not-allowed;
 }
 
