@@ -10,7 +10,7 @@
 
 .chat-header {
   padding: 1rem;
-  background-color: #000000;
+  background-color: #4caf50;
   color: white;
   text-align: center;
 }
@@ -50,13 +50,13 @@
 }
 
 .user-message .message-bubble {
-  background-color: #7375ed;
+  background-color: #4caf50;
   color: white;
 }
 
 .ai-message .message-bubble {
-  background-color: rgb(253, 111, 111);
-  color: #000000;
+  background-color: white;
+  color: #333;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -96,7 +96,7 @@
 
 .input-form button {
   padding: 12px 24px;
-  background-color: #0c0505;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 25px;
@@ -106,7 +106,7 @@
 }
 
 .input-form button:disabled {
-  background-color: #0c0505;
+  background-color: #ccc;
   cursor: not-allowed;
 }
 
@@ -147,7 +147,7 @@
 
 .error-message .message-bubble {
   background-color: #ffebee;
-  color: #7af08c;
+  color: #c62828;
 }
 
 /* Scrollbar styling */
@@ -160,12 +160,12 @@
 }
 
 .messages-container::-webkit-scrollbar-thumb {
-  background: #5ddb96;
+  background: #888;
   border-radius: 3px;
 }
 
 .messages-container::-webkit-scrollbar-thumb:hover {
-  background: #63c3f0;
+  background: #555;
 }
 
 /* Make sure code blocks don't overflow */
